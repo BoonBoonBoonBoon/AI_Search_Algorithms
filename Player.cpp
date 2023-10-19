@@ -28,3 +28,24 @@ int Player::GetFILO()
 
 	return TopElem;
 }
+int Player::Getneighbours(Map* map){
+
+// Get the Top value of the index. 
+int currentIndex = GetFIFO();
+
+// Pass in the map and getting the current coordinates.
+int* Coord = map->GetGridCoord(currentIndex);
+
+// Finding the local neighbours vector
+std::Vector<int> neighbours 
+
+// Add the left space to the vector of neighbours
+int left[2] = {Coord[0] - 1, Coord[1]};
+if(Coord[0] > 0 neighbours.push.back(map->GetGridIndex(left)){
+
+
+
+}
+
+
+}

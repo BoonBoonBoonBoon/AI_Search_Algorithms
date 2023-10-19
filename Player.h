@@ -35,5 +35,7 @@ public:
 	// Check if cell already in stack
 	bool bIsInStack(int Index) { return std::find(FILOStack.begin(), FILOStack.end(), Index) != FILOStack.end(); }
 
+	int Getneighbours(Map* map);
+
 };
 

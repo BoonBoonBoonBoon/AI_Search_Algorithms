@@ -6,7 +6,21 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+// move to the highest node 
+// bredth = broad/wide
+// progress horiontally
+
+std::cout << 
+
+
+
 }
 
+void MovePlayerToEnd(Player &player,  Map &map)
+{
 
+
+
+
+
+}
