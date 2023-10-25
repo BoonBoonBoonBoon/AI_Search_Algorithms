@@ -3,17 +3,23 @@
 // Debug program: F5 or Debug > Start Debugging menu
 
 #include <iostream>
-#include "Player.h"
-#include "Map.h"
-
 
 int main()
 {
-    
+// move to the highest node 
+// bredth = broad/wide
+// progress horiontally
+
+std::cout << 
+
+
+
 }
 
-int BFS(int32 StartV)
+void MovePlayerToEnd(Player &player,  Map &map)
 {
+
+
 
 
 
